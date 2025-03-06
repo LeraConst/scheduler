@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/LeraConst/go_final_project/internal/repeat"
+	"github.com/LeraConst/scheduler/internal/repeat"
 )
 
 // NextDateHandler вычисляет следующую дату

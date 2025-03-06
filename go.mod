@@ -1,4 +1,4 @@
-module github.com/LeraConst/go_final_project
+module github.com/LeraConst/scheduler
 
 go 1.21.5
 

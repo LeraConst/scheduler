@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/LeraConst/go_final_project/internal/db"
-	"github.com/LeraConst/go_final_project/internal/server"
+	"github.com/LeraConst/scheduler/internal/db"
+	"github.com/LeraConst/scheduler/internal/server"
 )
 
 func main() {
