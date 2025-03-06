@@ -33,6 +33,7 @@ func getTasks(t *testing.T, search string) []map[string]string {
 	assert.NoError(t, err)
 
 	var m map[string][]map[string]string
+
 	err = json.Unmarshal(body, &m)
 	assert.NoError(t, err)
 	return m["tasks"]
@@ -70,6 +71,7 @@ func TestTasks(t *testing.T) {
 		comment: "",
 		repeat:  "d 30",
 	})
+
 	tasks = getTasks(t, "")
 	assert.Equal(t, len(tasks), 3)
 
